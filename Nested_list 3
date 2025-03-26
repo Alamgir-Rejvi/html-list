@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body> 
+<h1>Nested lists Example</h1>
+<ol type="a"> 
+	<li>Animals
+		<ul type="square">
+			<li>Mammals
+				<ol type="a"> 
+					<li>Lion</li>
+					<li>Elephant</li>
+					<li>Whale</li>
+				</ol>
+			</li>
+			<li>Reptiles
+				<ul style="square"> 
+					<li>Snake</li>
+					<li>Turtle</li>
+					<li>Crocodile</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>Plants
+		<ul type="square">
+			<li>Flowering
+				<ol type="a">
+					<li>Rose</li>
+					<li>Tulip</li>
+					<li>Sunflower</li>
+				</ol>
+			</li>
+			<li>Non-flwering
+				<ul>
+					<li>Fern</li>
+					<li>Moss</li>
+					<li>Algae</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ol>
+</body>
+</html>
